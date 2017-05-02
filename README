@@ -1,1 +1,4 @@
 Using Zotero API with pyzotero
+
+`secret-credentials.sh` loads the API credentials as environment variables. It is ignored by git.
+Run `source secret-credentials.sh` to load three environment variables: ZOTERO_LIBRARY_ID, ZOTERO_LIBRARY_TYPE, ZOTERO_API_KEY
